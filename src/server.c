@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: eschula <<marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/01/07 17:21:44 by acesar-m          #+#    #+#             */
-/*   Updated: 2025/01/14 15:27:42 by eschula          ###   ########.fr       */
+/*   Created: 2025/02/05 20:00:29 by eschula           #+#    #+#             */
+/*   Updated: 2025/02/10 17:18:25 by eschula          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -74,7 +74,7 @@ int	main(void)
 {
 	struct sigaction	sa;
 
-	ft_printf("Welcome the at acesar-m server.\n");
+	ft_printf("Welcome the at eschula server.\n");
 	ft_printf("Server PID: %d\n", getpid());
 	sa.sa_sigaction = signal_handler;
 	sa.sa_flags = SA_SIGINFO;
